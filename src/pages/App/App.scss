@@ -1,0 +1,43 @@
+@import 'MainColors';
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+.display-v-h-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.custom-background {
+  background-color: $grey24;
+}
+
+// scroll bar
+/* width */
+::-webkit-scrollbar {
+  background-color: grey20;
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: $grey24;
+  box-shadow: 0 0 3px $grey22;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background-color: $grey22;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $grey20;
+  cursor: pointer;
+}
+
+.MuiButton-root {
+  text-transform: initial !important;
+}

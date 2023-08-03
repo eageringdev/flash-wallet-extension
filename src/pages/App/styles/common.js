@@ -1,0 +1,78 @@
+import colors from './colors';
+
+const commonStyles = {
+  primaryButton: {
+    minHeight: 48,
+    maxHeight: 48,
+    paddingVertical: 8,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingHorizontal: 32,
+    elevation: 3,
+    borderRadius: 8,
+    backgroundColor: colors.primary5,
+  },
+  disabledButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 48,
+    maxHeight: 48,
+    paddingVertical: 8,
+    paddingHorizontal: 32,
+    elevation: 3,
+    borderRadius: 8,
+    backgroundColor: colors.grey23,
+  },
+  primaryButtonText: {
+    fontFamily: 'Poppins',
+    fontSize: 16,
+    color: 'black',
+    lineHeight: 24,
+    letterSpacing: 0,
+    fontWeight: '700',
+  },
+  secondaryButton: {
+    alignItems: 'center',
+    justifyContent: 'center',
+    minHeight: 48,
+    maxHeight: 48,
+    paddingVertical: 8,
+    paddingHorizontal: 32,
+    elevation: 3,
+    borderRadius: 8,
+    backgroundColor: colors.grey22,
+  },
+  secondaryButtonText: {
+    fontFamily: 'Poppins',
+    fontSize: 16,
+    color: colors.primary5,
+    lineHeight: 24,
+    letterSpacing: 0,
+    fontWeight: '700',
+  },
+  headerText: {
+    fontFamily: 'Poppins',
+    fontSize: 16,
+    color: 'white',
+    lineHeight: 24,
+    letterSpacing: 0,
+    fontWeight: 'bold',
+  },
+  inputLabelText: {
+    fontFamily: 'Poppins',
+    fontSize: 12,
+    color: 'grey',
+    lineHeight: 16,
+    letterSpacing: 0,
+  },
+  inputText: {
+    fontFamily: 'Poppins',
+    fontSize: 14,
+    color: 'grey',
+    lineHeight: 24,
+    letterSpacing: 0,
+    fontWeight: 'bold',
+  },
+};
+
+export default commonStyles;
